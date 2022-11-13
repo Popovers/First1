@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+input {
+font-size: 14px;
+line-height: 16px;
+height: 45px;
+width: 355px;
+/* left: 542px;
+top: 344px; */
+border: 2px solid #e9f2ff;
+border-radius: 5px;
+}
+
+.form-title {
+    color: #30507d;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.register-form-container {
+    max-width: 415px;
+    background: #ffffff;
+    box-shadow: 0px 6px 50px rgba(217, 229, 255, 0.7);
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
